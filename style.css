@@ -1,19 +1,21 @@
-.fruit-img {
-    width: 100px;
-    height: 100px;
-    margin-right: 20px;
-    cursor: pointer;
+.fruits {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .fruits img {
+    max-width: 100%;
+    height: auto;
   }
   
   .fruit-text {
-    font-size: 24px;
-    font-weight: bold;
-    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 18px;
   }
   
-  #canvas {
-    position: absolute;
-    top: 0;
-    left: 0;
+  .fruit-text p {
+    margin: 0;
   }
   
